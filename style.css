@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    transition: 1s;
+    
+}
+img{
+    width: 24.7vw;
+    height: 100vh;
+    /* overflow-clip-margin: content-box; */
+    transition: 2s;
+}
+img:hover{
+     scale:115%;
+    /* transition: 1.5%; */
+    z-index: 2;
+    /* transform: translate3d(0,0,0) scale(1.2);
+    opacity: 1; */
+
+
+}
+
+
