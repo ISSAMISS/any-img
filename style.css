@@ -14,17 +14,17 @@ body{
 img{
     width: 24.7vw;
     height: 100vh;
-    /* overflow-clip-margin: content-box; */
     transition: 2s;
+    object-fit: cover;
 }
 img:hover{
      scale:115%;
-    /* transition: 1.5%; */
     z-index: 2;
-    /* transform: translate3d(0,0,0) scale(1.2);
-    opacity: 1; */
-
+    /* transform: translate3d(0,0,0) scale(1.2); */ */
+    overflow: hidden;
+}
+img:not(:hover){
+    opacity: 1;
 
 }
-
 
